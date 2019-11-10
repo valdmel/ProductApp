@@ -1,6 +1,6 @@
 ﻿# Products CRUD Application v2.0
  
-A basic products CRUD application where you can register produts of all kinds. Developed using Angular 8 and Spring 5.
+A basic products CRUD application where you can register produts of all kinds. I created it when I was studying Angular and angular Material. Developed with Angular 8 and Spring 5.
 
 ## Installation Guide
 - Go to https://nodejs.org/en/ and download the LTS version
