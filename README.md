@@ -1,21 +1,18 @@
-﻿# Sistema de Cadastro de Produtos v2.0
+﻿# Products CRUD Application v2.0
  
-Sistema de cadastro de produtos variados. Cada produto possui uma breve descrição, um peso e seu preço. Desenvolvido utilizando Angular 8 como front-end e Spring 5 como back-end.
+A basic products CRUD application where you can register produts of all kinds. Developed using Angular 8 and Spring 5.
 
-## Guia de Instalação para o Angular CLI
+## Installation Guide
+- Go to https://nodejs.org/en/ and download the LTS version
+- You're done! Angular CLI is installed! :)
 
-- Acesse https://nodejs.org/en/ e baixe a versão LTS
-- Acesse, via Menu Iniciar, o Node.js command prompt
-- Pronto! O Angular CLI já está instalado! :)
+## Angular application initialization
+- Open Node.js command prompt and go to the project folder
+- Type "npm install" to install all dependencies
+- Type "npm install bootstrap --save" to install Bootstrap
+- Type "ng add @angular/material" to install Angular Material
+- After downloading all dependencies, use the command "ng serve --open" or "ng s --o" to start the application
+- You're done! The application will start on http://localhost:4200 :)
 
-## Iniciando o Projeto Angular
-- Ainda dentro do Node.js command prompt, navegue até o local onde o projeto Angular foi baixado e acesse a pasta dele
-- Digite o comando "npm install" para instalar as dependências
-- Digite o comando "npm install bootstrap --save" para instalar o Bootstrap 4
-- Digite o comando "ng add @angular/material" para instalar o Angular Material
-- Após baixar as dependências, digite o comando "ng serve --open" ou "ng s --o" para iniciar a aplicação
-- Pronto! Em alguns instantes, uma nova página abrirá via http://localhost:4200 com o projeto! :)
-
-## Iniciando o Projeto Spring
-- Abra o projeto em qualquer IDE (de preferência NetBeans ou Eclipse) e clique em Run
-- Pronto! Em alguns instantes, o projeto estará funcionando! :)
+## Spring application initialization
+- Open the project in any IDE with Java support and click on Run
