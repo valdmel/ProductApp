@@ -1,0 +1,28 @@
+.editar {
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+}
+
+.editar > * {
+  width: 100%;
+}
+
+form {
+  padding-top: 50px;
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.nome {
+  width: 30%;
+}
+
+.descricao {
+  width: 100%;
+}
+
+.peso_preco {
+  width: 25%;
+}

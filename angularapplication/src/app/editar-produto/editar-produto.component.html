@@ -1,0 +1,39 @@
+<div class="editar">
+  <mat-card>
+    <mat-card-header>
+      <mat-card-title>Editar Produto</mat-card-title>
+    </mat-card-header>
+
+    <form [formGroup]="formGroup" novalidate>
+      <div class="form-group">
+        <mat-form-field class="nome">
+          <input matInput placeholder="Nome" formControlName="Nome" [(ngModel)]="produto.nome" #Nome required>
+          <mat-error *ngIf="this.formGroup.controls.Nome.invalid">Campo obrigatório!</mat-error>
+        </mat-form-field>
+      </div>
+
+      <div class="form-group">
+        <mat-form-field class="descricao">
+          <textarea matInput placeholder="Descrição" formControlName="Descricao" [(ngModel)]="produto.descricao" #Descricao required></textarea>
+          <mat-error *ngIf="this.formGroup.controls.Descricao.invalid">Campo obrigatório!</mat-error>
+        </mat-form-field>
+      </div>
+
+      <div class="form-group">
+        <mat-form-field class="peso_preco">
+          <input matInput placeholder="Peso" formControlName="Peso" [(ngModel)]="produto.peso" #Peso required>
+          <mat-error *ngIf="this.formGroup.controls.Peso.invalid">Campo obrigatório!</mat-error>
+        </mat-form-field>
+      </div>
+
+      <div class="form-group">
+        <mat-form-field class="peso_preco">
+          <input matInput placeholder="Preço" formControlName="Preco" [(ngModel)]="produto.preco" #Preco required>
+          <mat-error *ngIf="this.formGroup.controls.Preco.invalid">Campo obrigatório!</mat-error>
+        </mat-form-field>
+      </div>
+
+      <button mat-raised-button color="primary" (click)="atualizarProduto(produto)" type="submit" [disabled]="formGroup.invalid">Enviar</button>
+    </form>
+  </mat-card>
+</div>

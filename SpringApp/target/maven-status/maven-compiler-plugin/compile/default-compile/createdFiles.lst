@@ -1,0 +1,7 @@
+com\example\SpringMVC\services\ProdutoServiceImplementacao.class
+com\example\SpringMVC\model\Produto.class
+com\example\SpringMVC\services\ProdutoService.class
+com\example\SpringMVC\bootstrap\Bootstrap.class
+com\example\SpringMVC\controller\ProdutoController.class
+com\example\SpringMVC\repositories\ProdutoRepository.class
+com\example\SpringMVC\SpringMvcApplication.class
